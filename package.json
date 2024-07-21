@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "electron": "^31.2.1",
+    "nodemon": "^3.1.4"
+  },
+  "name": "connection_test",
+  "version": "1.0.0",
+  "description": "Teste sua internet",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "EstevaoXavier",
+  "license": "ISC"
+}
