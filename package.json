@@ -8,7 +8,7 @@
   "description": "Teste sua internet",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "electron ."
   },
   "author": "EstevaoXavier",
   "license": "ISC"
