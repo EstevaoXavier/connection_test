@@ -1,0 +1,25 @@
+:root {
+    --cor-um: #77E4C8;
+    --cor-dois: #36C2CE;
+    --cor-tres: #478CCF;
+    --cor-quatro: #4535C1;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+body h1 {
+    padding-top: 30px;
+    font-size: larger;
+    color: var(--cor-quatro);
+}
