@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0;
     color: var(--cor-um);
+    box-sizing: border-box;
 }
 
 body {
@@ -25,6 +26,18 @@ body h1 {
     font-size: larger;
     color: var(--cor-um);
     margin-bottom: 10px;
+}
+
+#ul_conn_select {
+    background-color: var(--cor-um);
+    list-style: none;
+}
+#ul_conn_select li {
+    color: white;
+}
+#ul_conn_select li a {
+    color: var(--cor-quatro);
+    text-decoration: none;
 }
 
 .primeira-linha {
